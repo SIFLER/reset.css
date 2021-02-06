@@ -221,8 +221,8 @@ mark {
   padding: .1em .2em;
 }
 
-small {
-  font-size: .825rem;
+small, .small {
+  font-size: .825em;
 }
 
 q {
@@ -250,4 +250,8 @@ sub {
 
 sup {
   top: -.45em;
+}
+
+[hidden], .hidden {
+  display: none !important;
 }
